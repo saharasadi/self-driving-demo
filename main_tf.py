@@ -20,16 +20,16 @@ import h5py
 ### Before running, make sure you customize these values. The demo won't work if you don't!
 
 # What is your ClusterOne username? This should be something like "johndoe", not your email address!
-CLUSTERONE_USERNAME = "..."
+CLUSTERONE_USERNAME = "sahar-poc15"
 
 # Where should your local log files be stored? This should be something like "~/Documents/self-driving-demo/logs/"
-LOCAL_LOG_LOCATION = "..."
+LOCAL_LOG_LOCATION = "~/clusterone/onboarding/logs"
 
 # Where is the dataset located? This should be something like "~/Documents/data/" if the dataset is in "~/Documents/data/comma"
-LOCAL_DATASET_LOCATION = "..."
+LOCAL_DATASET_LOCATION = "~/clusterone/onboarding/data/self-driving-demo/"
 
 # Name of the data folder. In the example above, "comma"
-LOCAL_DATASET_NAME = "..."
+LOCAL_DATASET_NAME = "comma"
 
 #clusterone
 from clusterone import get_data_path, get_logs_path
